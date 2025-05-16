@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #040824;
+}
+
+.global-container {
+  max-width: 1980px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.main-bg-color {
+  background-color: #1c89c9;
+}
+
+.wrapper-mainLayout {
+  padding: 0 32px;
+}
+
+@media (max-width: 800px) {
+  .wrapper-mainLayout {
+    padding: 0 12px;
+  }
+}
+
+.uncommon {
+  background: #0d9919;
+  background: linear-gradient(to bottom, #0d9919, #022505);
+  border: 2px solid #0d9919;
+}
+
+.rare {
+  background: #202de2;
+  background: linear-gradient(to bottom, #0f48b1, #0a163b);
+  border: 2px solid #4f1ffa;
+}
+
+.epic {
+  background: #8704a1;
+  background: linear-gradient(to bottom, #8704a1, #2a0431);
+  border: 2px solid #af1dcc;
+}
+
+.legendary {
+  background: #e6bd06;
+  background: linear-gradient(to bottom, #e6bd06, rgb(62, 63, 3));
+  border: 2px solid #e6bd06;
+}
+
+.mythic {
+  background: #a11515;
+  background: linear-gradient(to bottom, #da2525, #250606);
+  border: 2px solid #a11515;
+}
