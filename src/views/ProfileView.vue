@@ -47,7 +47,6 @@ const openModal = (item) => {
             </div>
           </div>
           <div class="bttns">
-            <div class="bttn-buy" @click="buyItem(targetItem)">Buy</div>
             <div class="bttn-close" @click="modal.closeModal">Close</div>
           </div>
         </div>
